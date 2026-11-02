@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "alexbheste-autoperceive_jd367"
+name = "alexbheste-inference_trace_instrumentation_timeline_score"
 version = "0.1.0"
 description = "解析时间标记，排列自动驾驶感知工程师·推理链路的追踪埋点的发生顺序，标出间隔异常与逆序事件"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://alexbheste.github.io"
-Repository = "https://github.com/alexbheste/autoperceive_jd367"
-Issues = "https://github.com/alexbheste/autoperceive_jd367/issues"
+Repository = "https://github.com/alexbheste/inference_trace_instrumentation_timeline_score"
+Issues = "https://github.com/alexbheste/inference_trace_instrumentation_timeline_score/issues"
 
 [project.scripts]
-autoperceive_jd367 = "autoperceive_jd367:main"
+inference_trace_instrumentation_timeline_score = "inference_trace_instrumentation_timeline_score:main"
 
 [tool.setuptools]
-py-modules = ["autoperceive_jd367"]
+py-modules = ["inference_trace_instrumentation_timeline_score"]
